@@ -31,7 +31,8 @@ export function About() {
     <div className="flex  items-center">
       <div className="flex items-center justify-center">
         {/* Left */}
-        <div className="flex justify-center">
+        <div>
+          <h2 className="text-foreground font-bold text-5xl opacity-0">Brick</h2>
           <Avatar className="mr-[4em] h-[14em] w-[14em]">
             <AvatarImage
               className="object-cover"

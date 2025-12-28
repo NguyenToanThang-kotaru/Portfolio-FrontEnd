@@ -134,6 +134,11 @@
   
 }
 
+html, body {
+  background-color: #ffffff;
+  min-height: 100%;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
