@@ -139,6 +139,15 @@ html, body {
   min-height: 100%;
 }
 
+
+:root {
+  /* fallback cho mobile */
+  /* --background: #ffffff;
+  --foreground: #171717; */
+
+  /* ok cho browser mới */
+  --background: oklch(1 0 0);
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;
